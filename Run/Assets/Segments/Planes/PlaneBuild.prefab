@@ -1,0 +1,474 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &481714422290360271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7898249825033321905}
+  - component: {fileID: 9048210898467520893}
+  - component: {fileID: 7758324559490050213}
+  - component: {fileID: 3236038243102308650}
+  - component: {fileID: 3815095837046924680}
+  - component: {fileID: 4538526078889235440}
+  m_Layer: 6
+  m_Name: PlaneBuild
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7898249825033321905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481714422290360271}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.100138, y: 14.5872135, z: 84.14596}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8883293137940863728}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &9048210898467520893
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481714422290360271}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &7758324559490050213
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481714422290360271}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ffef6aeedc04c6a4eaf5f112c905ce1f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3236038243102308650
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481714422290360271}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &3815095837046924680
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481714422290360271}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &4538526078889235440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481714422290360271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 972ea89ac0ab9d04f9100390a2dbf8d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  customEntrance: {fileID: 0}
+  customExit: {fileID: 0}
+  customKeepUpright: 0
+  _customMainPath: -1
+  axis: 2
+  customPaths:
+  - spline:
+      points:
+      - _type: 0
+        position: {x: -16.87, y: 14.5872135, z: 79.14596}
+        color: {r: 1, g: 1, b: 1, a: 1}
+        normal: {x: 0, y: 1, z: 0}
+        size: 1
+        tangent: {x: -16.87, y: 14.5872135, z: 75.81262}
+        tangent2: {x: -16.87, y: 14.5872135, z: 82.479294}
+      - _type: 0
+        position: {x: -16.87, y: 14.5872135, z: 89.14596}
+        color: {r: 1, g: 1, b: 1, a: 1}
+        normal: {x: 0, y: 1, z: 0}
+        size: 1
+        tangent: {x: -16.87, y: 14.5872135, z: 85.81262}
+        tangent2: {x: -16.87, y: 14.5872135, z: 92.479294}
+      closed: 0
+      type: 2
+      linearAverageDirection: 1
+      customValueInterpolation:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      customNormalInterpolation:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      sampleRate: 10
+    sampleRate: 10
+    samples: []
+    name: Lane 1
+    color: {r: 1, g: 0, b: 0, a: 1}
+    seamlessEnds: 1
+    confineToBounds: 0
+    segment: {fileID: 4538526078889235440}
+    transform: {fileID: 7898249825033321905}
+    localPoints:
+    - _type: 0
+      position: {x: -2.7698631, y: 0, z: -5}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -2.7698631, y: 0, z: -8.333336}
+      tangent2: {x: -2.7698631, y: 0, z: -1.6666641}
+    - _type: 0
+      position: {x: -2.7698631, y: 0, z: 5}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -2.7698631, y: 0, z: 1.6666641}
+      tangent2: {x: -2.7698631, y: 0, z: 8.333336}
+  - spline:
+      points:
+      - _type: 0
+        position: {x: -14.100138, y: 14.5872135, z: 79.14596}
+        color: {r: 1, g: 1, b: 1, a: 1}
+        normal: {x: 0, y: 1, z: 0}
+        size: 1
+        tangent: {x: -14.100138, y: 14.5872135, z: 75.81262}
+        tangent2: {x: -14.100138, y: 14.5872135, z: 82.479294}
+      - _type: 0
+        position: {x: -14.100138, y: 14.5872135, z: 89.14596}
+        color: {r: 1, g: 1, b: 1, a: 1}
+        normal: {x: 0, y: 1, z: 0}
+        size: 1
+        tangent: {x: -14.100138, y: 14.5872135, z: 85.81262}
+        tangent2: {x: -14.100138, y: 14.5872135, z: 92.479294}
+      closed: 0
+      type: 2
+      linearAverageDirection: 1
+      customValueInterpolation:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      customNormalInterpolation:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      sampleRate: 10
+    sampleRate: 10
+    samples: []
+    name: Lane 2
+    color: {r: 1, g: 1, b: 1, a: 1}
+    seamlessEnds: 1
+    confineToBounds: 0
+    segment: {fileID: 4538526078889235440}
+    transform: {fileID: 7898249825033321905}
+    localPoints:
+    - _type: 0
+      position: {x: -0, y: -0, z: -5}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: -0, y: -0, z: -8.333333}
+      tangent2: {x: 0, y: 0, z: -1.666667}
+    - _type: 0
+      position: {x: 0, y: 0, z: 5}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 0, y: 0, z: 1.6666667}
+      tangent2: {x: 0, y: 0, z: 8.333333}
+  - spline:
+      points:
+      - _type: 0
+        position: {x: -11.1, y: 14.5872135, z: 79.14596}
+        color: {r: 1, g: 1, b: 1, a: 1}
+        normal: {x: 0, y: 1, z: 0}
+        size: 1
+        tangent: {x: -11.1, y: 14.5872135, z: 75.81262}
+        tangent2: {x: -11.1, y: 14.5872135, z: 82.479294}
+      - _type: 0
+        position: {x: -11.1, y: 14.5872135, z: 89.14596}
+        color: {r: 1, g: 1, b: 1, a: 1}
+        normal: {x: 0, y: 1, z: 0}
+        size: 1
+        tangent: {x: -11.1, y: 14.5872135, z: 85.81262}
+        tangent2: {x: -11.1, y: 14.5872135, z: 92.479294}
+      closed: 0
+      type: 2
+      linearAverageDirection: 1
+      customValueInterpolation:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      customNormalInterpolation:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      sampleRate: 10
+    sampleRate: 10
+    samples: []
+    name: Lane 3
+    color: {r: 1, g: 0.9593952, b: 0.042452812, a: 1}
+    seamlessEnds: 1
+    confineToBounds: 0
+    segment: {fileID: 4538526078889235440}
+    transform: {fileID: 7898249825033321905}
+    localPoints:
+    - _type: 0
+      position: {x: 3.0001373, y: 0, z: -5}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 3.0001373, y: 0, z: -8.333336}
+      tangent2: {x: 3.0001373, y: 0, z: -1.6666641}
+    - _type: 0
+      position: {x: 3.0001373, y: 0, z: 5}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 3.0001373, y: 0, z: 1.6666641}
+      tangent2: {x: 3.0001373, y: 0, z: 8.333336}
+  objectProperties:
+  - transform: {fileID: 7898249825033321905}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
+    extrudedMesh: {fileID: 0}
+    extrusionSpriteVertices: []
+    extrusionSpriteUVs: []
+    extrusionSpriteRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    extrudedCollisionMesh: {fileID: 0}
+    _extrusionSettings:
+      meshColliderHandling: 0
+      boundsInclusion: -1
+      indexing: 0
+      applyRotation: 1
+      keepUpright: 1
+      upVector: {x: 0, y: 1, z: 0}
+      applyScale: 0
+      bendMesh: 1
+      bendSprite: 0
+      bendPolygonCollider: 0
+      applyMeshColors: 0
+    _settingsComponent: {fileID: 0}
+    overrideSettingsComponent: 0
+    meshFilter: {fileID: 9048210898467520893}
+    meshCollider: {fileID: 3236038243102308650}
+    spriteRenderer: {fileID: 0}
+    colliders:
+    - {fileID: 3236038243102308650}
+    _isRoot: 1
+  - transform: {fileID: 8883293137940863728}
+    localRotation: {x: -0.27069297, y: 0.9622975, z: 0.013006776, w: 0.023234203}
+    extrudedMesh: {fileID: 0}
+    extrusionSpriteVertices: []
+    extrusionSpriteUVs: []
+    extrusionSpriteRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    extrudedCollisionMesh: {fileID: 0}
+    _extrusionSettings:
+      meshColliderHandling: 0
+      boundsInclusion: -1
+      indexing: 0
+      applyRotation: 1
+      keepUpright: 0
+      upVector: {x: 0, y: 1, z: 0}
+      applyScale: 0
+      bendMesh: 0
+      bendSprite: 0
+      bendPolygonCollider: 0
+      applyMeshColors: 0
+    _settingsComponent: {fileID: 0}
+    overrideSettingsComponent: 0
+    meshFilter: {fileID: 8883293137940015902}
+    meshCollider: {fileID: 0}
+    spriteRenderer: {fileID: 0}
+    colliders:
+    - {fileID: 1796822593556307663}
+    _isRoot: 0
+  bounds:
+    center: {x: -1.8632298, y: -0.6049986, z: 0}
+    extents: {x: 6.8632298, y: 7.65413, z: 5}
+    max: {x: 5, y: 7.0491314, z: 5}
+    min: {x: -8.7264595, y: -8.259129, z: -5}
+    size: {x: 13.7264595, y: 15.30826, z: 10}
+  builders: []
+  unpacked: 0
+  alwaysDraw: 0
+  drawGeneratedSpline: 1
+  drawGeneratedSamples: 1
+  drawSampleScale: 1
+  drawEntranceAndExit: 1
+  drawBounds: 1
+  drawCustomPaths: 1
+  editorChildCount: 2
+--- !u!1001 &7028730136770687305
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7898249825033321905}
+    m_Modifications:
+    - target: {fileID: 1931161172366180093, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_Name
+      value: SM_Bld_OfficeOld_Large_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931161172366453689, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931161172366453689, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5681009
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931161172366453689, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.829107
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931161172366453689, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.7484741
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931161172366453689, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.023234203
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931161172366453689, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.27069297
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931161172366453689, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9622975
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931161172366453689, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.013006776
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931161172366453689, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -2.155
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931161172366453689, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 177.839
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931161172366453689, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -31.382
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747266395929931654, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_Size.x
+      value: 14.265657
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747266395929931654, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_Size.y
+      value: 25.250929
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747266395929931654, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_Center.x
+      value: -6.618954
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747266395929931654, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_Center.y
+      value: 12.6254635
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747266395929931654, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+      propertyPath: m_Center.z
+      value: -7.499999
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+--- !u!4 &8883293137940863728 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1931161172366453689, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+  m_PrefabInstance: {fileID: 7028730136770687305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &8883293137940015902 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 1931161172365072983, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+  m_PrefabInstance: {fileID: 7028730136770687305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1796822593556307663 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 8747266395929931654, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+  m_PrefabInstance: {fileID: 7028730136770687305}
+  m_PrefabAsset: {fileID: 0}
