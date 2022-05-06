@@ -6891,9 +6891,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _generateSegmentsAhead: 6
-  _activateSegmentsAhead: 2
+  _activateSegmentsAhead: 1
   _loadTimeout: 0
-  _maxSegments: 7
+  _maxSegments: 8
   _buildOnAwake: 1
   _multithreaded: 1
   _useUnloadUnusedAssets: 0
@@ -7147,6 +7147,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 260137853, guid: 43856395e6335244c95500139fb6f7b9, type: 3}
+      propertyPath: _health
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 260137853, guid: 43856395e6335244c95500139fb6f7b9, type: 3}
       propertyPath: _slashEffect
       value: 

@@ -1,17 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Dreamteck.Forever;
 
 public class SaveLoad : MonoBehaviour
 {
     [SerializeField] private SwipeModel _swipeModel;
 
     private int _numModel;
-    private int _isTutoriald = 1;
 
 
     private void Start()
-    {
+    {  // To Do another script with Tutorial Spwan
+       // LevelGenerator.instance.startLevel = LoadTutorial();
+        //LevelGenerator.instance.StartGeneration();
         Time.timeScale = 1f;
     }
     public void SaveNumModel()
@@ -25,8 +27,7 @@ public class SaveLoad : MonoBehaviour
     }
     public void SaveTutorial()
     {
-        _isTutoriald = 2;
-        PlayerPrefs.SetInt("Tutorial", _isTutoriald);
+        PlayerPrefs.SetInt("Tutorial", 1);
     }
     public int LoadTutorial()
     {
