@@ -13,6 +13,7 @@ public class PlayerTutorial : MonoBehaviour
     [SerializeField] private GameObject _arrowLeft;
     [SerializeField] private GameObject _arrowDown;
 
+    [SerializeField] private SaveLoad _saveLoad;
 
     private int _triggerCount;
     private void OnTriggerEnter(Collider other)
@@ -87,7 +88,6 @@ public class PlayerTutorial : MonoBehaviour
                 break;
             case 14:
             case 16:
-            case 20:
                 _arrowDown.SetActive(false);
                 _attackTxt.SetActive(false);
                 break;
@@ -95,6 +95,11 @@ public class PlayerTutorial : MonoBehaviour
             case 19:
                 _arrowDown.SetActive(true);
                 _arrowDown.GetComponent<Animator>().SetTrigger("Down");
+                break;
+            case 20:
+                _arrowDown.SetActive(false);
+                _attackTxt.SetActive(false);
+                _saveLoad.SaveTutorial();
                 break;
         }
         }

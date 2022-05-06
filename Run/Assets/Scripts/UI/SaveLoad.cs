@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Dreamteck.Forever;
+
 
 public class SaveLoad : MonoBehaviour
 {
@@ -11,9 +11,7 @@ public class SaveLoad : MonoBehaviour
 
 
     private void Start()
-    {  // To Do another script with Tutorial Spwan
-       // LevelGenerator.instance.startLevel = LoadTutorial();
-        //LevelGenerator.instance.StartGeneration();
+    { 
         Time.timeScale = 1f;
     }
     public void SaveNumModel()

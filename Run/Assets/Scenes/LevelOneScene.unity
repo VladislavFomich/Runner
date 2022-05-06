@@ -481,6 +481,7 @@ MonoBehaviour:
   _arrowRight: {fileID: 843096058}
   _arrowLeft: {fileID: 1711996143}
   _arrowDown: {fileID: 2120287976}
+  _saveLoad: {fileID: 117772426}
 --- !u!1 &341701563
 GameObject:
   m_ObjectHideFlags: 0
@@ -2979,7 +2980,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.389755, y: 1}
+    m_SensorSize: {x: 2.5195823, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -6856,6 +6857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2094832225}
   - component: {fileID: 2094832226}
+  - component: {fileID: 2094832227}
   m_Layer: 6
   m_Name: LevelGenerator
   m_TagString: Untagged
@@ -6894,7 +6896,7 @@ MonoBehaviour:
   _activateSegmentsAhead: 1
   _loadTimeout: 0
   _maxSegments: 8
-  _buildOnAwake: 1
+  _buildOnAwake: 0
   _multithreaded: 1
   _useUnloadUnusedAssets: 0
   _loopSegmentLogic: 0
@@ -6908,6 +6910,19 @@ MonoBehaviour:
   _sharedPathGenerator: {fileID: 11400000, guid: c4bef677881c4fe4f98b03c342b1bb65, type: 2}
   levels: []
   usePathGeneratorInstance: 0
+--- !u!114 &2094832227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094832223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fcf8f7b7628204c974d93d63489b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _saveLoad: {fileID: 117772426}
 --- !u!1 &2114864712
 GameObject:
   m_ObjectHideFlags: 0

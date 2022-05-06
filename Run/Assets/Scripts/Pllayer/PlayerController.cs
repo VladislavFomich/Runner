@@ -7,9 +7,6 @@ using UnityEngine.VFX;
 
 public class PlayerController : BaseController
 {
-
-    
-
     [SerializeField] private PlayerInterfaceCanvas _playerInterfaceCanvas;
     [SerializeField] private VisualEffect _slashEffect;
     private PlayerDeath _playerDeath;
@@ -50,7 +47,6 @@ public class PlayerController : BaseController
     {
         _animController.Attack();
         _isAttack = true;
-        _slashEffect.Play();
     }
 
     public override void TakeDamage(int damage)
@@ -81,6 +77,10 @@ public class PlayerController : BaseController
             _playerInterfaceCanvas.UpdateCoinScore();
             Destroy(other.gameObject);
         }
+    }
+    public void SlashVFX()
+    {
+        _slashEffect.Play();
     }
 
 }
