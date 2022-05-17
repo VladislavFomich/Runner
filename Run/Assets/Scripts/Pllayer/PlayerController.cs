@@ -59,7 +59,6 @@ public class PlayerController : BaseController
         _currentExperience = 0f; 
         _level += 1;
         _playerInterfaceCanvas.UpdateLevelUp();
-       
     }
     public void GrowLevel(float exp)
     {

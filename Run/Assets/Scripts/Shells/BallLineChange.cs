@@ -18,7 +18,6 @@ public class BallLineChange : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        print("1");
         switch (_laneRunner.lane)
         {
             case 1:

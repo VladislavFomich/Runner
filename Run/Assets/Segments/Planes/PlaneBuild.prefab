@@ -31,6 +31,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -14.100138, y: 14.5872135, z: 84.14596}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8883293137940863728}
   m_Father: {fileID: 0}
@@ -55,6 +56,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -457,9 +459,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
---- !u!4 &8883293137940863728 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1931161172366453689, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+--- !u!65 &1796822593556307663 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 8747266395929931654, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
   m_PrefabInstance: {fileID: 7028730136770687305}
   m_PrefabAsset: {fileID: 0}
 --- !u!33 &8883293137940015902 stripped
@@ -467,8 +469,8 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 1931161172365072983, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
   m_PrefabInstance: {fileID: 7028730136770687305}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1796822593556307663 stripped
-BoxCollider:
-  m_CorrespondingSourceObject: {fileID: 8747266395929931654, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
+--- !u!4 &8883293137940863728 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1931161172366453689, guid: 82f74ba38a948ef44ba27f13018b35f2, type: 3}
   m_PrefabInstance: {fileID: 7028730136770687305}
   m_PrefabAsset: {fileID: 0}
