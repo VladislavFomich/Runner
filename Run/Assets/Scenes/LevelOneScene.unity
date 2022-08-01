@@ -3024,7 +3024,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.8068783, y: 1}
+    m_SensorSize: {x: 0.46153846, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -6932,7 +6932,7 @@ MonoBehaviour:
   _loopSegmentLogic: 0
   _levelCollection:
   - {fileID: 11400000, guid: fc5c774dd563908429e49c40bd94fb0f, type: 2}
-  - {fileID: 11400000, guid: fc5c774dd563908429e49c40bd94fb0f, type: 2}
+  - {fileID: 11400000, guid: 1f5d196c83831bc41a11dfb8860d3f9d, type: 2}
   _levelIteration: 1
   _levelRandomizer: {fileID: 11400000, guid: fb600be43607d7e47822c78754644d57, type: 2}
   _generationRandomizer: {fileID: 0}
